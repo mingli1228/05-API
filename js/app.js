@@ -174,7 +174,7 @@ const airlineLookup = {
 };
 
 $.getJSON(
-  "https://opensky-network.org/api/states/all?lamin=30.0&lomin=130.0&lamax=45.0&lomax=150.0"
+  ""
 )
   .done(function (data) {
     if (!data.states) return;
